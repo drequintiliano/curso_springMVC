@@ -7,6 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-<h1>Curso Spring MVC</h1>
+<h1>Curso Spring MVC Develop</h1>
 </body>
 </html>
