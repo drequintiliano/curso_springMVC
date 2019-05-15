@@ -20,3 +20,15 @@ public class SpringMvcConfig {
 		return resolver;
 	}
 }
+
+
+/* 
+front controller que trabalha como um dispatcher Servlet
+identifica o controller pela barra, 
+a partir dali esta trablhando com a parte de servlet, 
+cada parte da barra é chamada de path, cada metodo é um outro path,
+no metodo se comunica com o model que se comunica com o banco de dados ou sistema de arquivos,
+o controller devolve a pagina para o front controller,
+a view renderiza num arquivo html que devolver para o front controller,
+no navegador tem a resposta de uma estrutura de uma pagina html,
+*/
