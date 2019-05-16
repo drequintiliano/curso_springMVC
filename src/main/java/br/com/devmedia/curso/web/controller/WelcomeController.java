@@ -10,7 +10,8 @@ public class WelcomeController {
 
 	@RequestMapping(value = "/", method = RequestMethod.GET) // "method"-qual tipo de protocolo http vai trabalhar com esse metodo
 	public String welcome() {
-		return "welcome";
+		//return "welcome";
+		return "redirect:/usuario/todos"; //feito a partir do nome controller
 	}
 	
 	//"ModelAndView" - objeto do proprio spring para enviar informações para sua pagina
